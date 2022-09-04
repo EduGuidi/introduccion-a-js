@@ -74,8 +74,12 @@
     El resultado va a ser "nombreDeVariable es undefined".
 
     Para darle un valor a nuestra variable (o mejor dicho ASIGNAR un valor), usamos el signo '='.
+*/ 
 
-    nombreDeVariable = 'Hola Mundo!';
+
+
+
+  /*  nombreDeVariable = 'Hola Mundo!';
 
     También podemos crear (declarar) y darle valor (asignar) a una variable en un solo paso (la INICIALIZAMOS).
 
@@ -102,6 +106,9 @@
 
 // TAREA: Creá 2 variables indefinidas, llamadas numeroUno y numeroDos.
 
+// let nombre="Nico"
+//let apellido="Rivarola"
+//alert(`${nombre} ${apellido}`) 
 
 /*
     Podés usar el nombre de tus variables pare representar qué información tienen adentro, por ejemplo:
@@ -147,7 +154,8 @@
     El nombre de las constantes también puede ser usado para representar la información que contienen,
     como las variables.
 */
-
+//const tamanoDePie = 47
+//alert(tamanoDePie)
 // TAREA: Crear una constante y mostrarla con un alert
 
 
@@ -173,6 +181,8 @@
 
     Consejo: Fijate que no pusimos 1 y 3 entre comillas porque queremos que se interpreten como números, no como texto.
 */
+//const resultado = 20 + 20; 
+//console.log(resultado);
 
 //
 // TAREA: Crear 3 variables:
@@ -183,6 +193,10 @@
 // la 1ra variable multiplicada (con el operador *) por la 2nda variable.
 // Mostrar el valor de resultadoMultiplicacion con un alert o un console.log
 
+/* let numeroUno = 10
+let numeroDos = 3
+let resultadoMultiplicacion = numeroUno * numeroDos
+console.log(resultadoMultiplicacion) */
 
 /*
     Funciones
